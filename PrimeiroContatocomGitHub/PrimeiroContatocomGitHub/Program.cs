@@ -10,9 +10,9 @@ namespace PrimeiroContatocomGitHub
     {
         static void Main(string[] args)
         {
-            
+            //imprime no console
             Console.WriteLine("Hello Git");
-            //remover a linha superior
+
 
         }
     }
