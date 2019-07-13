@@ -25,6 +25,7 @@ namespace ThreadComEscolhadeQuantidade
 
             var iniciou = DateTime.Now;
 
+
             while (indice < 1000000) { }
 
             var tempoTotal = DateTime.Now - iniciou;
