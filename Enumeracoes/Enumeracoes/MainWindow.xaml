@@ -1,0 +1,17 @@
+﻿<Window x:Class="Enumeracoes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Enumeracoes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="Executar" Margin="556,320,55,28" Click="Button_Click"/>
+        <Button x:Name="button_1" Content="Cima" Margin="273,96,374,275" Click="Button_Click1"/>
+        <Button x:Name="button_2" Content="Esquerda" Margin="120,166,527,205" Click="Button_Click2"/>
+        <Button x:Name="button_3" Content="Direita" Margin="424,166,223,205" Click="Button_Click3"/>
+        <Button x:Name="button_4" Content="Baixo" Margin="273,232,374,139" Click="Button_Click4"/>
+
+    </Grid>
+</Window>
